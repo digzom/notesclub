@@ -2,8 +2,8 @@ import Config
 
 # Configure your database
 config :notesclub, Notesclub.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "general_admin",
+  password: "admin",
   hostname: "localhost",
   database: "notesclub_dev",
   stacktrace: true,
