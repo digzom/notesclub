@@ -4,6 +4,5 @@ defmodule NotesclubWeb.StatusController do
   def ok(conn, _params), do: text(conn, "OK")
 
   def status(conn, _params) do
-    check
   end
 end
